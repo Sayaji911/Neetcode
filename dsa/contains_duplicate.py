@@ -7,7 +7,7 @@ class Solution:
 
 class ContainsDuplicates(Solution):
     def using_hash_set(self, nums: List[int]) -> bool:
-        """Using HashSet with Time Complexity O(n) and Space Complexity O(n)"""
+        """Using HashSet with Time Complexity O(n) and Space Complexity O(1)"""
         num_set = set()
         for num in nums:
             if num in num_set:
